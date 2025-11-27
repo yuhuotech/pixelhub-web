@@ -59,6 +59,7 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#features" class="text-slate-600 hover:text-primary transition-colors font-medium">功能特性</a>
                     <a href="#backends" class="text-slate-600 hover:text-primary transition-colors font-medium">存储支持</a>
+                    <a href="#demo" class="text-slate-600 hover:text-primary transition-colors font-medium">在线Demo</a>
                     <a href="#deploy" class="text-slate-600 hover:text-primary transition-colors font-medium">快速部署</a>
                     <a href="https://github.com/yuhuotech/pixelhub" target="_blank"
                         class="flex items-center gap-2 bg-slate-900 text-white px-5 py-2.5 rounded-full hover:bg-slate-800 transition-all hover:shadow-lg transform hover:-translate-y-0.5">
@@ -82,6 +83,8 @@
                     class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50">功能特性</a>
                 <a href="#backends"
                     class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50">存储支持</a>
+                <a href="#demo"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50">在线Demo</a>
                 <a href="#deploy"
                     class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50">快速部署</a>
                 <a href="https://github.com/yuhuotech/pixelhub"
@@ -123,8 +126,13 @@
                 PixelHub 是一个开源、美观且功能强大的图片托管解决方案。支持多存储后端，提供极致的上传体验和优雅的图片管理功能。
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#deploy"
+                <a href="https://pixelhub-demo.vercel.app/" target="_blank"
                     class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 gradient-bg rounded-full hover:shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-1">
+                    试试看 Demo
+                    <i data-lucide="play" class="ml-2 w-5 h-5"></i>
+                </a>
+                <a href="#deploy"
+                    class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-700 transition-all duration-200 bg-white border border-slate-200 rounded-full hover:bg-slate-50 hover:border-slate-300 hover:shadow-md">
                     立即开始
                     <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
                 </a>
@@ -261,6 +269,89 @@
                 <div class="flex items-center gap-3 px-6 py-4 bg-white rounded-xl shadow-sm border border-slate-200">
                     <i data-lucide="hard-drive" class="w-8 h-8 text-blue-500"></i>
                     <span class="font-semibold text-slate-700">本地存储</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="py-24 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">立即体验</h2>
+                <p class="text-lg text-slate-600">无需部署，在线试用 PixelHub 的所有功能</p>
+            </div>
+
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl border border-slate-200">
+                <div class="grid md:grid-cols-2">
+                    <div class="p-10 md:p-12">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-6">在线 Demo</h3>
+                        <p class="text-slate-600 mb-8 text-lg">体验 PixelHub 的完整功能，无需复杂的配置，即刻开始上传和管理图片。</p>
+
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-slate-900">完整功能体验</p>
+                                    <p class="text-sm text-slate-600">体验上传、搜索、分类等所有核心功能</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-slate-900">无需安装</p>
+                                    <p class="text-sm text-slate-600">直接访问，立即开始，无任何部署成本</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="mt-1">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-slate-900">安全隔离</p>
+                                    <p class="text-sm text-slate-600">独立的演示环境，专为体验设计</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-8">
+                            <p class="text-sm text-slate-600 mb-3"><span class="font-medium text-slate-900">登录凭证：</span></p>
+                            <p class="font-mono text-sm text-slate-700 bg-white px-3 py-2 rounded border border-slate-200">
+                                用户名：<span class="font-bold">admin</span> | 密码：<span class="font-bold">admin</span>
+                            </p>
+                        </div>
+
+                        <a href="https://pixelhub-demo.vercel.app/" target="_blank"
+                            class="inline-flex items-center gap-2 px-8 py-3 text-base font-bold text-white transition-all duration-200 gradient-bg rounded-full hover:shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-1">
+                            访问在线 Demo
+                            <i data-lucide="external-link" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-10 md:p-12 flex items-center justify-center border-l border-slate-200">
+                        <div class="text-center">
+                            <i data-lucide="play-circle" class="w-24 h-24 text-blue-400 mx-auto mb-6 opacity-80"></i>
+                            <h4 class="text-xl font-bold text-slate-900 mb-2">准备好了吗？</h4>
+                            <p class="text-slate-600 mb-8">点击上方按钮，3 秒钟进入 PixelHub 的世界</p>
+                            <div class="space-y-2">
+                                <p class="text-sm text-slate-500">
+                                    <i data-lucide="zap" class="w-4 h-4 inline mr-1 text-yellow-500"></i>
+                                    体验现代化的图床系统
+                                </p>
+                                <p class="text-sm text-slate-500">
+                                    <i data-lucide="image" class="w-4 h-4 inline mr-1 text-purple-500"></i>
+                                    上传您的第一张图片
+                                </p>
+                                <p class="text-sm text-slate-500">
+                                    <i data-lucide="folder-open" class="w-4 h-4 inline mr-1 text-pink-500"></i>
+                                    管理和组织您的图片库
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
